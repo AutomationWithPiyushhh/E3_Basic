@@ -30,9 +30,7 @@ public class KeyBoadActions {
 		act.sendKeys("admin@123").perform();
 		
 		act.keyDown(Keys.ENTER).build().perform();
-		act.keyUp(Keys.ENTER).build().perform();
-			
-		
+		act.keyUp(Keys.ENTER).build().perform();		
 		
 		Thread.sleep(3000);
 		driver.quit();
