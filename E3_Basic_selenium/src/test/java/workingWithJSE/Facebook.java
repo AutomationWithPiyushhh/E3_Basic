@@ -20,7 +20,9 @@ public class Facebook {
 		WebElement password = driver.findElement(By.name("pass"));
 		WebElement username = driver.findElement(By.name("email"));
 		
-		jse.executeScript("arguments[2].value=arguments[4];","admin","Drishti",username,"Pankaj","Unknown");
+		String un = "unknown";
+		
+		jse.executeScript("arguments[2].value=arguments[4];","admin","Drishti",username,"Pankaj",un);
 		jse.executeScript("arguments[0].value='admin@123';",password);
 		
 		
