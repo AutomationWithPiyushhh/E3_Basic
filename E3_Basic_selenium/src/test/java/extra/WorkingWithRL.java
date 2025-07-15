@@ -15,6 +15,9 @@ public class WorkingWithRL {
 		
 		driver.get("https://www.facebook.com/");
 		
+		
+		
+		
 		driver.findElement(RelativeLocator
 							.with(By.tagName("input"))
 //							.below(By.id("email"))	
